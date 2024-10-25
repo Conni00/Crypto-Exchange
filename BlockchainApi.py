@@ -136,7 +136,7 @@ def create_boxplot(file):
         sequences = re.split(r'={10}.*={10}\n',f.read())
         timestamps = []
         time_intervals = []
-        number_of_tx_and_time = [] ## (transactions, time)
+        number_of_tx_and_time = [] ##  (transactions, time)
         c= 0
         for sequence in sequences:
             tmp = []
